@@ -1,0 +1,56 @@
+/* Style for the Navigation Bar */
+/* Credits w3schools.com for showing how to make a navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+li {
+    float: left;
+}
+li a { /* editing the link text */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* (w)px (h)px w=width h=height */
+    text-decoration: none;
+}
+li a:hover { /* When mouse hovers over options */
+    background-color: #111;
+    color: white;
+}
+.active { /* Shows the user which tab they're curretly on */
+    background-color: white;
+    color: black;
+}
+/* End of Navigation Bar Style */
+body {
+    background-color: #333;
+}
+header {
+    background-color: rgb(116, 116, 116);
+    border-radius: 10px;
+}
+main {
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+main p {
+    color: rgb(202, 202, 202);
+}
+footer p {
+    color: rgb(104, 104, 104);
+}
+header h1 {
+    text-align: center;
+}
+p {
+    font-family: 'Brush Script MT', cursive;
+    margin: 4px;
+}
+h1{
+    font-family: 'Times New Roman', serif;
+    margin-left: 4px; margin-right: 4px;
+}
